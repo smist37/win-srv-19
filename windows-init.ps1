@@ -12,6 +12,9 @@
 
 Install-Module PSWindowsUpdate # Let powershell run Windows Update
 
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+# the above line was also required at some point
+
 Get-WindowsUpdate # Run the Windows Update
 
 Write-Host "These are the following updates I'll download."
