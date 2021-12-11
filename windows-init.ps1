@@ -1,4 +1,9 @@
-﻿Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
+﻿####################################
+ #   PRIOR TO RUNNING THIS SCRIPT   #
+ # Set-ExecutionPolicy unrestricted #
+#####################################
+
+ Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 # Trust the PSGallery Repo so it will auto accept to Y
 
 Install-Module PSWindowsUpdate # Let powershell run Windows Update
