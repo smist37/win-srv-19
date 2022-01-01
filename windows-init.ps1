@@ -4,6 +4,8 @@
 #####################################
  #   PRIOR TO RUNNING THIS SCRIPT   #
  # Set-ExecutionPolicy unrestricted #
+ # Invoke-WebRequest -Uri https://raw.githubusercontent.com/smist37/win-srv-19/c38d905166714c7c7036671d60e4d4b84b3efd15/windows-init.ps1 -Outfile windows-init.ps1 #
+ #
 #####################################
 
 
